@@ -7,8 +7,8 @@
 .head{
   display: flex;
   align-items: center;
-  padding: 30px 90px;
-  margin-bottom: 10px;
+  padding: 30px 120px;
+  margin-bottom: 0px;
 }
 .academias{
   color: white;
@@ -72,13 +72,20 @@
 }
 .heading{
   background-color: rgba(248, 248, 248, 0.2);
-  padding: 26px 52px;
-  /* width: 1200px; */
   margin: 0px 20px;
+  padding: 23px 0px 16px 16px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.words{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 32px;
+  width: 900px;
 }
 .word{
-  display: inline-block;
-  /* background-color: red; */
   color: #1eb2a6;
   cursor: pointer;
   margin-right: 50px;
@@ -88,20 +95,36 @@
 }
 .wro{
   font-size: 16px;
-  /* background-color: blue; */
   font-family: Arial;
   font-weight: 500;
-  display: inline-block;
   color: white;
   cursor: pointer;
   margin-right: 50px;
 }
-.cut{
-  display: inline-block;
-  margin-left: 500px;
+.cuts{
+  width: 230px;
+  max-height: 50px;
+}
+.cot{
   background-color: #1eb2a6;
-  padding: 26px 52px;
+  padding: 32.5px;
+  width: 20px;
+  transform: skewX(-10deg);
+  position: absolute;
+  top: 115px;
+  right: 180px;
+}
+.cut{
+  right: 0;
+  top: 115px;
+  left: 1100px;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+  background-color: #1eb2a6;
   color: white;
   letter-spacing: 2px;
   cursor: pointer;
-} 
+  width: 160px;
+  padding: 22.5px 22.5px;
+}
