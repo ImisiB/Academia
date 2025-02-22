@@ -82,4 +82,5 @@
 }
 .about{
   background-image: url(../img/about.jpg.webp);
+  background-size: fit-content;
 }
