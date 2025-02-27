@@ -17,7 +17,8 @@
   width: 500px;
   color: white;
   font-weight: 700;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  font-family: "Roboto", Arial;
 }
 .far{
   color: #ffffffcc;
@@ -71,6 +72,7 @@
   font-size: 12px;
   text-transform: uppercase;
   border-radius: 5px;
+  font-family: "Roboto", Arial;
 }
 .view i{
   margin-left: 15px;
@@ -80,7 +82,83 @@
   box-shadow: none;
   transition-duration: 0.6s;
 }
+
 .about{
+  display: flex;
+  height: 700px;
+  padding: 200px 100px;
+  justify-content: space-between;
+}
+.sub{
+  width: 900px;
+  margin-left: -200px;
+  margin-right: 40px;
+  height: 1000px;
   background-image: url(../img/about.jpg.webp);
-  background-size: fit-content;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+}
+.us{
+  padding: 70px 0px;
+  /* background-color: blue; */
+}
+.i{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1eb2a6;
+  font-size: larger;
+  font-family: "Roboto", Arial;
+  margin-bottom: 20px;
+}
+.benefit{
+  font-size: 40px;
+  font-family: "Roboto";
+  width: 500px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+.me{
+  display: flex;
+  width: 500px;
+  cursor: normal;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.me:hover{
+  background-color: #1eb2a6;
+  transition-duration: 0.5s;
+}
+.me:hover .it i{
+  color: white;
+}
+.me:hover .courses{
+  color: white;
+}
+.me:hover .how{
+  color: white;
+}
+.it i{
+  margin-right: 10px;
+  font-size: 60px;
+  color: #1eb2a6;
+}
+.sep{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.courses{
+  color: #000000cc;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.how{
+  color: #999999;
+  font-size: 16px;
+  line-height: 26px;
+  width: 400px;
+  font-family: Arial;
 }

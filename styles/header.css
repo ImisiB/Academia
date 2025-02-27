@@ -1,6 +1,7 @@
 .heads{
   background-image: url(../img/bg_1.jpg.webp);
   background-size: 1370px;
+  background-attachment: fixed;
   height: 100vh;
   padding: 0;
 }
@@ -48,6 +49,7 @@
 .days{
   text-align: left;
   margin-left: 10px;
+  font-family: "Roboto", Arial;
 }
 .day{
   margin-bottom: 2px;
@@ -120,6 +122,7 @@
   position: absolute;
   display: inline-block;
   z-index: 1;
+  font-family: "Roboto", Arial;
   background-color: #1eb2a6;
   color: white;
   letter-spacing: 2px;
