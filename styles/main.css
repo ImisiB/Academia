@@ -236,16 +236,19 @@
   width: 100%;
   text-align: center;
 }
+
 .gears{
   padding: 100px;
   background-color: red;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  place-content: space-between;
 }
 .gear{
   display: flex;
+  margin-right: 20px;
   background-color: white;
-  padding: 100px 40px;
+  padding: 40px 20px;
 }
 .inc i{
   background-color: #1eb2a6;
@@ -269,9 +272,65 @@
   cursor: normal;
   font-family: Arial;
 }
+.author{
+  text-align: center;
+  color: #999999;
+  font-family: Arial;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  margin-bottom: 6px;
+}
 .author img{
+  margin-right: 8px;
   height: 40px;
   width: 40px;
   border-radius: 30px;
   color: #999999;
 }
+.blue{
+  font-family: Arial;
+  font-size: smaller;
+  color: #1eb2a6;
+  margin-bottom: 50px;
+}
+.blues{
+  color: #1eb2a6;
+  font-size: larger;
+  font-family: Arial;
+  width: 300px;
+  margin-left: -50px;
+  margin-bottom: 30px;
+}
+.enroll{
+  border: 1px solid #1eb2a6;
+  border-radius: 6px;
+  margin-left: -80px;
+  text-align: center;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.enroll:hover{
+  background-color: #1eb2a6;
+  transition-duration: 0.7s;
+}
+.enroll:hover .span{
+  color: white;
+  transition-duration: 0.7s;
+}
+.span{
+  color: #1eb2a6;
+  letter-spacing: 1.7px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 600;
+}
+.html{
+  font-size: 26px;
+  color: #000000cc;
+  width: 350px;
+  line-height: 37px;
+  font-family: Arial;
+  margin-bottom: 15px;
+}
+/* commit */
