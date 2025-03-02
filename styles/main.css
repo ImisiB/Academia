@@ -1,0 +1,477 @@
+.welcoming{
+  padding: 120px;
+  margin-top: -30px;
+}
+.welcome{
+  color: #ffffffb3;
+  text-transform: uppercase;
+  font-size: 16px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 750;
+  margin-bottom: 20px;
+  font-family: Arial;
+}
+.best{
+  font-size: 40px;
+  width: 500px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Roboto", Arial;
+}
+.far{
+  color: #ffffffcc;
+  width: 490px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  line-height: 27px;
+  font-family: Arial;
+}
+.box{
+  display: flex;
+  align-items: center;
+}
+.start{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #1eb2a6;
+  width: 190px;
+  padding: 16px 0px 16px 22px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+}
+.start i{
+  margin-left: 15px;
+  font-size: 19px;
+}
+.start:hover{
+  box-shadow: none;
+  transition-duration: 0.6s;
+}
+.view{
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 140px;
+  padding: 16px 16px;
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  color: #1eb2a6;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-family: "Roboto", Arial;
+}
+.view i{
+  margin-left: 15px;
+  font-size: 19px;
+}
+.view:hover{
+  box-shadow: none;
+  transition-duration: 0.6s;
+}
+
+.about{
+  display: flex;
+  height: 850px;
+  padding: 0px 100px;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.sub{
+  width: 900px;
+  margin-left: -200px;
+  margin-right: 40px;
+  height: 1000px;
+  background-image: url(../img/about.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: 1000px;
+}
+.us{
+  padding: 70px 0px;
+}
+.i{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1eb2a6;
+  font-size: larger;
+  font-family: "Roboto", Arial;
+  margin-bottom: 20px;
+}
+.benefit{
+  font-size: 40px;
+  width: 500px;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 1.4;  
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  margin-bottom: 30px;
+}
+.me{
+  display: flex;
+  width: 500px;
+  cursor: normal;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.me:hover{
+  background-color: #1eb2a6;
+  transition-duration: 0.5s;
+}
+.me:hover .it i{
+  color: white;
+}
+.me:hover .courses{
+  color: white;
+}
+.me:hover .how{
+  color: white;
+}
+.it i{
+  margin-right: 10px;
+  font-size: 60px;
+  color: #1eb2a6;
+}
+.sep{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.courses{
+  color: #000000cc;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.how{
+  color: #999999;
+  font-size: 16px;
+  line-height: 26px;
+  width: 400px;
+  font-family: Arial;
+}
+
+.size{
+  margin-bottom: 200px;
+  background-image: url(../img/bg_3.jpg.webp); 
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.graduate{
+  display: flex;
+  width: 250px;
+  cursor: normal;
+  padding: 7px;
+}
+.graduate i{
+  z-index: 2;
+  margin-right: 10px;
+  font-size: 60px;
+  color: white;
+}
+.grad{
+  z-index: 2;
+}
+.nom{
+  z-index: 2;
+  font-family: Arial;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: white;
+}
+.success{
+  z-index: 2;
+  text-transform: uppercase;
+  font-family: arial;
+  font-size: 16px;
+  color: #ffffffe6;
+}
+.overlay{
+  background-color: #111111;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  top: 1530px;
+  opacity: .3;
+}
+
+.our{
+  font-size: 16px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #1eb2a6;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.explore{
+  font-size: 50px;
+  color: #000000cc;
+  font-weight: 700;
+  font-family: "Roboto";
+  width: 100%;
+  text-align: center;
+}
+
+.heroes{
+  margin-bottom: 180px;
+}
+.gears{
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-content: space-between;
+}
+.gear{
+  display: flex;
+  margin-right: 20px;
+  background-color: white;
+  padding: 40px 20px;
+}
+.inc i{
+  background-color: #1eb2a6;
+  color: white;
+  padding: 9px;
+  font-size: 50px;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+.fundamental{
+  font-size: 26px;
+  color: #000000cc;
+  width: 150px;
+  line-height: 37px;
+  font-family: Arial;
+  margin-bottom: 15px;
+}
+.stars{
+  margin-bottom: 10px;
+  color: #1eb2a6;
+  cursor: normal;
+  font-family: Arial;
+}
+.author{
+  text-align: center;
+  color: #999999;
+  font-family: Arial;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.author img{
+  margin-right: 8px;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  color: #999999;
+}
+.blue{
+  font-family: Arial;
+  font-size: smaller;
+  color: #1eb2a6;
+  margin-bottom: 50px;
+}
+.blues{
+  color: #1eb2a6;
+  font-size: larger;
+  font-family: Arial;
+  width: 300px;
+  margin-left: -50px;
+  margin-bottom: 30px;
+}
+.enroll{
+  border: 1px solid #1eb2a6;
+  border-radius: 6px;
+  margin-left: -80px;
+  text-align: center;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.enroll:hover{
+  background-color: #1eb2a6;
+  transition-duration: 0.7s;
+}
+.enroll:hover .span{
+  color: white;
+  transition-duration: 0.7s;
+}
+.span{
+  color: #1eb2a6;
+  letter-spacing: 1.7px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 600;
+}
+.html{
+  font-size: 26px;
+  color: #000000cc;
+  width: 200px;
+  line-height: 37px;
+  font-family: Arial;
+  margin-bottom: 15px;
+}
+.htmls{
+  font-size: 26px;
+  color: #000000cc;
+  width: 250px;
+  line-height: 37px;
+  font-family: Arial;
+  margin-bottom: 15px;
+}
+.enrolls{
+  border-radius: 6px;
+  margin-left: -80px;
+  text-align: center;
+  padding: 15px 30px;
+  cursor: pointer;
+  background-color: #1eb2a6;
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+}
+.enrolls .span{
+  color: white;
+  letter-spacing: 1.7px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 600;
+}
+.enrolls:hover{
+  box-shadow: none;
+  transition-duration: 0.7s;
+}
+.lines{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.line{
+  background-color: #1eb2a6;
+  height: 3px;
+  width: 40px;
+  cursor: pointer;
+}
+.lin{
+  background-color: #dddddd;
+  height: 3px;
+  margin-left: 5px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.ui{
+  padding: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.ux{
+  cursor: pointer;
+  box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+  background-color: white;
+  text-align: center;
+  padding: 35px 0px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.ux:hover{
+  background-color: #1eb2a6;
+  transition-duration: 0.4s;
+  color: white;
+}
+.ux:hover .tele{
+  color: white;
+  transition-duration: 0.4s;
+}
+.ux:hover .design{
+  transition-duration: 0.4s;
+  color: white;
+}
+.ux:hover .award{
+  background-color: white;
+}
+.tele{
+  font-size: 70px;
+  color: #1eb2a6;
+}
+.design{
+  color: #000000cc;
+  font-weight: 500;
+  text-align: center;
+  font-family: Arial;
+  font-size: 23px;
+  margin-bottom: 24px;
+}
+.awards{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.award{
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  color: #1eb2a6;
+  font-size: smaller;
+  font-family: Arial;
+  width: fit-content;
+}
+.uxs{
+  cursor: pointer;
+  box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
+  background-color: #1eb2a6;
+  text-align: center;
+  padding: 35px 0px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.uxs:hover{
+  box-shadow: none;
+  transition-duration: 0.3s;
+}
+.teles{
+  font-size: 70px;
+  color: white;
+}
+.designs{
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  font-family: Arial;
+  font-size: 23px;
+  margin-bottom: 24px;
+}
+.awarded{
+  padding: 4px;
+  border-radius: 5px;
+  background-color: white;
+  color: #1eb2a6;
+  font-size: smaller;
+  font-family: Arial;
+  width: fit-content;
+}
