@@ -375,6 +375,7 @@
   height: 3px;
   width: 40px;
   cursor: pointer;
+  margin-right: 5px;
 }
 .lin{
   background-color: #dddddd;
@@ -474,4 +475,135 @@
   font-size: smaller;
   font-family: Arial;
   width: fit-content;
+}
+
+.testimonial{
+  margin-bottom: 200px;
+}
+.scott{
+  padding: 100px 100px 0px 100px;
+  display: grid;
+  margin-bottom: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.roger{
+  background-color: white;
+  padding: 20px 20px 50px 20px;
+  margin-right: 30px;
+  cursor: normal;
+}
+.persons{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.person{
+  height: 80px;
+  width: 80px;
+  position: relative;
+  margin-right: 0px;
+  cursor: normal;
+}
+.person img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+.person i{
+  position: absolute;
+  bottom: 0px;
+  font-size: x-large;
+  left: 60px;
+  background-color: #1eb2a6;
+  color: white;
+  border-radius: 50px;
+}
+.alright{
+  text-align: center;
+  padding: 20px;
+}
+.heard{
+  font-size: 20px;
+  font-family: Arial;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.dark{
+  font-size: 13px;
+  font-family: Arial;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1eb2a6;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.gold{
+  font-size: 16px;
+  color: #999999;
+  font-family: Arial;
+  line-height: 26px;
+  width: 300px;
+}
+.rogers{
+  cursor: normal;
+  background-color: #1eb2a6;
+  padding: 20px 20px 50px 20px;
+  margin-right: 30px;
+}
+.personal{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.prisoner{
+  height: 80px;
+  width: 80px;
+  position: relative;
+  margin-right: 0px;
+  cursor: normal;
+}
+.prisoner img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+.prisoner i{
+  position: absolute;
+  bottom: 0px;
+  font-size: x-large;
+  left: 60px;
+  background-color: white;
+  color: #1eb2a6;
+  border-radius: 50px;
+}
+.alrights{
+  text-align: center;
+  padding: 20px;
+}
+.heards{
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.darks{
+  font-size: 13px;
+  font-family: Arial;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.golds{
+  font-size: 16px;
+  color: white;
+  font-family: Arial;
+  line-height: 26px;
+  width: 300px;
 }
