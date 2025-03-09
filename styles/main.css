@@ -1,3 +1,6 @@
+main{
+  margin-bottom: 50px;
+}
 .welcoming{
   padding: 120px;
   margin-top: -30px;
@@ -632,7 +635,7 @@
   width: 100%;
 }
 .alone{
-  padding: 30px;
+  padding: 30px 20px 30px 20px;
 }
 .sit{
   display: flex;
@@ -676,17 +679,21 @@
 }
 
 .pricing{
-  padding: 100px;
-  background-color: red;
+  padding: 60px;
 }
 .change{
-  background-color: blue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 40px;
 }
 .highway{
   background-color: white;
-  padding: 50px;
+  padding: 40px;
+  box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+  margin-right: 20px;
+}
+.hood{
+  text-align: center;
 }
 .plan{
   letter-spacing: 1px;
@@ -694,23 +701,54 @@
   color: #111111;
   text-transform: uppercase;
   font-family: "roboto";
+  text-align: center;
   margin-bottom: 20px;
 }
 .darkness{
   display: flex;
-  /* background-color: red; */
-  padding: 18px 26px;
+  margin-bottom: 20px;
   position: relative;
+  width: 160px;
+  padding-left: 18px;
 }
 .dollar{
-  font-size: 40px;
+  font-size: 35px;
   color: #999999;
   position: absolute;
-  top: 11px;
-  left: 0;
+  top: 1;
+  left: 1;
+  font-weight: 700;
 }
 .alive{
+  margin-left: 18px;
   font-family: Arial;
   color: #1eb2a6;
   font-size: 60px;
+  font-weight: 700;
+}
+.fun{
+  font-family: Arial;
+  color: #999999;
+  width: 170px;
+  text-align: center;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.tempo{
+  border-radius: 3px;
+  border: #1eb2a6 solid 1px;
+  text-align: center;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #1eb2a6;
+  text-transform: uppercase;
+  font-family: "roboto";
+  cursor: pointer;
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+}
+.tempo:hover{
+  color: white;
+  background-color: #1eb2a6;
+  transition-duration: 0.3s;
 }

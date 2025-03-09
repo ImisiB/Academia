@@ -8,14 +8,14 @@
 .head{
   display: flex;
   align-items: center;
-  padding: 30px 120px;
+  padding: 30px 60px 30px 100px;
   margin-bottom: 0px;
 }
 .academias{
   color: white;
   text-transform: uppercase;
   font-family: "Roboto", Arial;
-  margin-right: 200px;
+  margin-right: 140px;
 }
 .academia{
   font-size: 30px;
@@ -77,10 +77,11 @@
   background-color: rgba(248, 248, 248, 0.2);
   margin: 0px 20px;
   position: relative;
-  padding: 23px 0px 16px 16px;
+  /* padding: 23px 0px 16px 16px; */
   display: flex;
   text-align: center;
   justify-content: space-between;
+  height: 66px;
 }
 .words{
   display: flex;
@@ -114,8 +115,6 @@
   width: 20px;
   transform: skewX(-10deg);
   position: absolute;
-  /* top: 115px; */
-  /* right: 180px; */
 }
 .cut{
   right: 0;
@@ -129,5 +128,5 @@
   letter-spacing: 2px;
   cursor: pointer;
   width: 160px;
-  padding: 22.5px 22.5px;
+  padding: 23px 22.5px;
 }
