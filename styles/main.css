@@ -607,3 +607,108 @@
   line-height: 26px;
   width: 300px;
 }
+
+.blog{
+  padding: 60px;
+  margin-bottom: 170px;
+}
+.go{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+}
+.fear{
+  background-color: white;
+  margin-right: 20px;
+  width: fit-content;
+}
+.dream{
+  margin-bottom: 26px;
+}
+.dream img{
+  height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 380px;
+}
+.alone{
+  padding: 30px;
+}
+.sit{
+  display: flex;
+  margin-bottom: 20px;
+}
+.admin{
+  display: flex;
+  margin-right: 15px;
+}
+.admin i{
+  font-size: 13px;
+  color: #1eb2a6;
+  margin-right: 6px;
+}
+.eyes{
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Arial;
+  font-weight: 700;
+}
+.never{
+  cursor: pointer;
+  color: #1eb2a6;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Arial;
+  font-weight: 700;
+}
+.build{
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 36px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.build:hover{
+  color: #1eb2a6;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.pricing{
+  padding: 80px;
+}
+.change{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.highway{
+  background-color: white;
+  padding: 50px;
+}
+.plan{
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #111111;
+  text-transform: uppercase;
+  font-family: "roboto";
+  margin-bottom: 20px;
+}
+.darkness{
+  display: flex;
+  background-color: red;
+  padding: 18px 26px;
+  position: relative;
+}
+.dollar{
+  font-size: 60px;
+  color: #999999;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.alive{
+  font-family: Arial;
+  color: #1eb2a6;
+  font-size: 60px;
+}
