@@ -72,9 +72,11 @@
   color: white;
   background-color: #1eb2a6;
 }
+
 .heading{
   background-color: rgba(248, 248, 248, 0.2);
   margin: 0px 20px;
+  position: relative;
   padding: 23px 0px 16px 16px;
   display: flex;
   text-align: center;
@@ -112,13 +114,12 @@
   width: 20px;
   transform: skewX(-10deg);
   position: absolute;
-  top: 115px;
-  right: 180px;
+  /* top: 115px; */
+  /* right: 180px; */
 }
 .cut{
   right: 0;
-  top: 115px;
-  left: 1100px;
+  top: 1;
   position: absolute;
   display: inline-block;
   z-index: 1;

@@ -88,7 +88,6 @@
   height: 850px;
   padding: 0px 100px;
   justify-content: space-between;
-  margin-bottom: 0px;
 }
 .sub{
   width: 900px;
@@ -172,6 +171,7 @@
   background-image: url(../img/bg_3.jpg.webp); 
   height: 200px;
   width: 100%;
+  margin-top: -3px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -214,7 +214,7 @@
   position: absolute;
   height: 200px;
   width: 100%;
-  top: 1530px;
+  top: 1467px;
   opacity: .3;
 }
 
@@ -240,8 +240,8 @@
 .heroes{
   margin-bottom: 180px;
 }
-.gears{
-  padding: 100px;
+.gears{ 
+  padding: 100px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-content: space-between;
@@ -609,7 +609,7 @@
 }
 
 .blog{
-  padding: 60px;
+  padding: 40px;
   margin-bottom: 170px;
 }
 .go{
@@ -629,7 +629,7 @@
   height: 300px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  width: 380px;
+  width: 100%;
 }
 .alone{
   padding: 30px;
@@ -676,9 +676,11 @@
 }
 
 .pricing{
-  padding: 80px;
+  padding: 100px;
+  background-color: red;
 }
 .change{
+  background-color: blue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -696,15 +698,15 @@
 }
 .darkness{
   display: flex;
-  background-color: red;
+  /* background-color: red; */
   padding: 18px 26px;
   position: relative;
 }
 .dollar{
-  font-size: 60px;
+  font-size: 40px;
   color: #999999;
   position: absolute;
-  top: 10px;
+  top: 11px;
   left: 0;
 }
 .alive{
