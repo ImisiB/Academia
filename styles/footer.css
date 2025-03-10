@@ -70,7 +70,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 }
 .honest{
-  margin-right: 30px;
+  margin-right: 50px;
 }
 .tonight{
   margin-bottom: 45px;
@@ -92,6 +92,7 @@
   font-family: Arial;
   line-height: 28px;
   margin-bottom: 20px;
+  width: 220px;
 }
 .mind i{
   margin-right: 8px;
@@ -109,4 +110,31 @@
 .have{
   font-family: Arial;
   margin-bottom: 40px;
+}
+.conditions{
+  display: flex;
+  margin-bottom: 15px;
+}
+.conditions i{
+  font-size: 19px;
+  color: #1eb2a6;
+  margin-right: 6px;
+}
+.fans{
+  color: #666666;
+  font-family: Arial;
+  cursor: pointer;
+}
+.fans:hover{
+  color: #1eb2a6;
+  transition-duration: 0.3s;
+}
+
+.inspire{
+  display: flex;
+}
+.inspire img{
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
 }
