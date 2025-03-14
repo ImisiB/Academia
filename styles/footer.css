@@ -132,9 +132,22 @@
 
 .inspire{
   display: flex;
+  width: 200px;
+  margin-bottom: 20px;
 }
 .inspire img{
+  margin-right: 10px;
   height: 50px;
   width: 50px;
   border-radius: 5px;
+}
+.jan{
+  width: fit-content;
+  display: flex;
+  margin-bottom: 10px;
+}
+.push{
+  color: #1eb2a6;
+  font-family: Arial;
+  font-size: 12px;
 }
