@@ -63,7 +63,7 @@
 
 .north{
   background-color: #eeeeee;
-  padding: 70px;
+  padding: 50px;
 }
 .south{
   display: grid;
@@ -86,6 +86,7 @@
   color: #1eb2a6;
   text-transform: uppercase;
   font-family: Arial;
+  letter-spacing: -1px;
 }
 .help{
   color: #999999;
@@ -105,7 +106,7 @@
 }
 
 .port{
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .have{
   font-family: Arial;
@@ -150,4 +151,34 @@
   color: #1eb2a6;
   font-family: Arial;
   font-size: 12px;
+}
+.push i{
+  margin-right: 2px;
+}
+
+.paper{
+  display: flex;
+  margin-bottom: 30px
+}
+.paper i{
+  color: #1eb2a6;
+  margin-right: 20px;
+  font-size: 15px;
+}
+.fake{
+  color: #000000cc;
+  font-family: Arial;
+  width: 200px;
+  font-size: 15px;
+}
+.spare{
+  color: #000000cc;
+  font-family: Arial;
+  width: 200px;
+  font-size: 15px;  
+  cursor: pointer;
+}
+.spare{
+  color: #1eb2a6;
+  transition-duration: 0.3s;
 }
