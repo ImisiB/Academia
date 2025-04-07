@@ -178,4 +178,25 @@
   font-size: 15px;  
   cursor: pointer;
 }
-gdgd
+.last{
+  background-color: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 50px;
+}
+.copy{
+  font-family: Arial;
+  color: #999999;
+}
+.copy i{
+  color: red;
+}
+.copy a{
+  color: #1eb2a6;
+  cursor: pointer;
+  text-decoration: none;
+}
+.copy a:hover{
+  text-decoration: underline;
+}
