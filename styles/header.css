@@ -8,14 +8,15 @@
 .head{
   display: flex;
   align-items: center;
-  padding: 30px 60px 30px 100px;
+  justify-content: center;
+  padding: 30px 0px 30px 0px;
   margin-bottom: 0px;
+  /* background-color: red; */
 }
 .academias{
   color: white;
   text-transform: uppercase;
   font-family: "Roboto", Arial;
-  margin-right: 140px;
 }
 .academia{
   font-size: 30px;
@@ -129,4 +130,17 @@
   cursor: pointer;
   width: 160px;
   padding: 23px 22.5px;
+}
+.hidden-menu{
+  display: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  font-family: Arial;
+  letter-spacing: 0.5;
+  text-align: center;
+  padding: 22px 5px;
 }

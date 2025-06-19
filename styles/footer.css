@@ -180,12 +180,11 @@
 }
 .last{
   background-color: #e9e9e9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   padding: 30px 50px;
 }
 .copy{
+  text-align: center;
   font-family: Arial;
   color: #999999;
 }
@@ -199,4 +198,8 @@
 }
 .copy a:hover{
   text-decoration: underline;
+}
+.follow{
+  font-family: Arial;
+  color: lightblue;
 }

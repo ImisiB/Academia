@@ -88,18 +88,12 @@ main{
 
 .about{
   display: flex;
-  height: 850px;
-  padding: 0px 100px;
   justify-content: space-between;
 }
-.sub{
-  width: 900px;
-  margin-left: -200px;
+.sub img{
+  width: 700px;
   margin-right: 40px;
-  height: 1000px;
-  background-image: url(../img/about.jpg.webp);
-  background-repeat: no-repeat;
-  background-size: 1000px;
+  height: 800px;
 }
 .us{
   padding: 70px 0px;
@@ -114,7 +108,7 @@ main{
 }
 .benefit{
   font-size: 40px;
-  width: 500px;
+  max-width: 500px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.4;  
   font-family: "Roboto", sans-serif;
@@ -127,7 +121,7 @@ main{
 }
 .me{
   display: flex;
-  width: 500px;
+  max-width: 500px;
   cursor: normal;
   padding: 20px;
   margin-bottom: 10px;
@@ -165,13 +159,14 @@ main{
   color: #999999;
   font-size: 16px;
   line-height: 26px;
-  width: 400px;
+  max-width: 400px;
   font-family: Arial;
 }
 
 .size{
   margin-bottom: 200px;
   background-image: url(../img/bg_3.jpg.webp); 
+  position: relative;
   height: 200px;
   width: 100%;
   margin-top: -3px;
@@ -179,6 +174,7 @@ main{
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -217,8 +213,8 @@ main{
   position: absolute;
   height: 200px;
   width: 100%;
-  top: 1467px;
-  opacity: .3;
+  top: 0px;
+  opacity: .5;
 }
 
 .our{
